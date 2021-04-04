@@ -1,5 +1,4 @@
 # Airbnb-dataset - Cognitivo.ai  
-- `Classificação: room_type`  
 
 - a. Como foi a definição da sua estratégia de modelagem?  
     - Optei pela `classificação` da variável dependente `room_type`
