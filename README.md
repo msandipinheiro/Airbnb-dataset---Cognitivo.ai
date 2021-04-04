@@ -28,7 +28,7 @@
             - Desse modo é preferível desconsiderar a remoção dos outiliers    
     - Selecionei a `função de custo`  
         - Neste momento eu aplico a função de custo no dataset original, ou seja, sem minimizar o desbalanceamento   
-            - O intuito é `comparar` F1-Score e Balanced Accuracy da `função de custo` com os resultados da classificação destas métricas que utilizaram os datasets `desbalanceados` pelas heurísticas de `under sampling` 
+            - O intuito é `comparar` *F1-Score* e *Balanced Accuracy* da `função de custo` com os resultados da classificação destas métricas que utilizaram os datasets `desbalanceados` pelas heurísticas de `undersampling` 
 
 - b. Como foi definida a função de custo utilizada?  
     - Escolhi a Regressão Logística como função de custo  
@@ -36,11 +36,11 @@
     - Utilizei a library `LazyPredict`  
         - Apliquei as heurísticas de desbalanceamento e   
         - E de uma só vez comparei vários algoritmos de classificação com parâmetros standard do LazyPredict   
-            - Que inclui também o método utilizado na função de custo   
+            - E inclui também o método utilizado na função de custo   
                 - Com isso, foi possível a comparação da função de custo sobre o dataset `original` e nos demais datasets rebalanceados     
 
 - c. Qual foi o critério utilizado na seleção do modelo final?  
-    - Maximização do F1-Score e do Balanced Accuracy  
+    - *Maximização* do `F1-Score` e do `Balanced Accuracy`  
 
 - d. Qual foi o critério utilizado para validação do modelo? Por que escolheu utilizar este método?  
     - Critério: 
