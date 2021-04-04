@@ -57,8 +57,8 @@
 - e. Quais evidências você possui de que seu modelo é suficientemente bom?  
     - Quadro onde são mostrados os resultados da função de custo `Regressão Logística` comparados com mais três abordagens utilizando o mesmo algoritmo
     
-                            sklearn - LogisticRegression   Acc    B-Acc   F1 Score <- FUNÇÃO DE CUSTO <- ORIGINAL  
-                                                          0.31   0.70     0.39  
+                            sklearn - LogisticRegression     Acc    B-Acc   F1 Score <- FUNÇÃO DE CUSTO <- ORIGINAL  
+                                                            0.31     0.70       0.39  
           ------------- LazyPredict -------------------- 
           Sem resample              - LogisticRegression	0.89	 0.52	    0.89 <- FUNÇÃO DE CUSTO <- LazyPredict  
           Tomek                     - LogisticRegression	0.91	 0.51	    0.91  
