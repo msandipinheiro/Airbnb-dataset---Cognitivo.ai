@@ -28,7 +28,7 @@
             - Desse modo é preferível desconsiderar a remoção dos outiliers    
     - Selecionei a `função de custo`  
         - Neste momento eu aplico a função de custo no dataset original, ou seja, sem minimizar o desbalanceamento   
-            - O intuito é `comparar` F1-Score e Balanced Accuracy da `função de custo` com os resultados da classificação destas métricas que utilizaram os datasets com as `heurísticas de desbalanceamento`. 
+            - O intuito é `comparar` F1-Score e Balanced Accuracy da `função de custo` com os resultados da classificação destas métricas que utilizaram os datasets `desbalanceados` pelas heurísticas de `under sampling` 
 
 - b. Como foi definida a função de custo utilizada?  
     - Escolhi a Regressão Logística como função de custo  
@@ -52,7 +52,7 @@
         - from sklearn.metrics import classification_report  
         - from sklearn.metrics import accuracy_score, balanced_accuracy_score  
         - from sklearn.metrics import confusion_matrix  
-    - Foram escolhidos estes métodos por serem muito utilizados e mensuram bem o desempenho de qualquer algoritmo de classificação  
+    - Foram escolhidos estes métodos por serem muito utilizados, pois mensuram bem o desempenho de muitos algoritmos de classificação e, desta forma, possibilita a comparação dos resultados apresentados com outras abordagens.  
 
 - e. Quais evidências você possui de que seu modelo é suficientemente bom?  
     - Quadro onde são mostrados os resultados da função de custo `Regressão Logística` comparados com mais três abordagens utilizando o mesmo algoritmo
