@@ -6,7 +6,7 @@
     - Separei as `features` por `tipo`  
         - por conveniência posso juntar estas listas  
     - Escolhi trilhar um caminho de `eliminação de variáveis` e ao longo fui aplicado técnicas estatísticas para este propósito  
-        - Modelos com menos número de recursos têm maior explicabilidade  
+        - Modelos com menos número de features têm maior explicabilidade  
         - É mais fácil implementar modelos de aprendizado de máquina com um menor número possível de features  
         - Menos features levam a uma generalização aprimorada que, por sua vez, reduz o over-training  
         - A seleção de features remove a redundância de dados  
